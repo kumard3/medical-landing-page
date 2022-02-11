@@ -10,7 +10,7 @@ export default function Footer() {
             href="#"
             className="flex justify-center space-x-3 lg:justify-start"
           >
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-400">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 32 32"

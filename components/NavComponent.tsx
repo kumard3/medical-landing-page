@@ -23,9 +23,7 @@ const navData = [
 ];
 
 export default function NavComponent() {
-
   const ref = useRef<HTMLDivElement>(null);
- 
 
   const [isModalOpen, setModalOpen] = useState(false);
   useOnClickOutside(ref, () => setModalOpen(false));
@@ -95,7 +93,7 @@ export default function NavComponent() {
                   <div className=" rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-500 ">
                     <button
                       onClick={() => setModalOpen(true)}
-                      className="inline-flex items-center lg:hidden text-white  focus-visible:ring ring-indigo-300  active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2"
+                      className="inline-flex items-center lg:hidden text-white  focus-visible:ring ring-green-300  active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

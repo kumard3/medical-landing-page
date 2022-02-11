@@ -35,7 +35,7 @@ export default function ServiceCard() {
               </div>
               <button
                 type="button"
-                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-400 text-gray-900"
+                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-green-400 text-gray-900"
               >
                 Read more
               </button>
@@ -59,7 +59,7 @@ export default function ServiceCard() {
               </div>
               <button
                 type="button"
-                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-400 text-gray-900"
+                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-green-400 text-gray-900"
               >
                 Read more
               </button>
@@ -84,7 +84,7 @@ export default function ServiceCard() {
               </div>
               <button
                 type="button"
-                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-400 text-gray-900"
+                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-green-400 text-gray-900"
               >
                 Read more
               </button>
@@ -108,7 +108,7 @@ export default function ServiceCard() {
               </div>
               <button
                 type="button"
-                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-indigo-400 text-gray-900"
+                className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-green-400 text-gray-900"
               >
                 Read more
               </button>
