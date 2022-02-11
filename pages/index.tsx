@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/link-passhref */
-import Link from "next/link";
-import * as React from "react";
 import CallToAction from "../components/CallToAction";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";

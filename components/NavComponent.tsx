@@ -27,14 +27,13 @@ export default function NavComponent() {
 
   const [isModalOpen, setModalOpen] = useState(false);
   useOnClickOutside(ref, () => setModalOpen(false));
-
   return (
     <div className="relative top-0 z-10 backdrop-blur-sm  text-xl font-bold drop-shadow-xl flex-none transition-colors duration-500  ">
       <div className="w-full container mx-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <Link href="#home">
+              <Link href="#home" passHref>
                 <h1>LOGO</h1>
               </Link>
             </div>
