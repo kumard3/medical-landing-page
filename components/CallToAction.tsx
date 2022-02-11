@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CallToAction() {
   return (
-    <section className="py-6 mx-auto container rounded-xl bg-gray-800 text-gray-50">
+    <section className="py-6  mx-auto container rounded-xl bg-gray-800 text-gray-50">
       <div className="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row">
         <div className="flex flex-col space-y-4 text-center lg:text-left">
           <h1 className="text-5xl font-bold leading-none">Stay in the loop</h1>

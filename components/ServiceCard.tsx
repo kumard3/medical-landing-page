@@ -10,13 +10,13 @@ export default function ServiceCard() {
 
           <a
             href="#"
-            className="inline-block bg-green-500    text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 md:px-8 py-2 md:py-3"
+            className="inline-block bg-green-500 w-[150px]    text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 md:px-8 py-2 md:py-3"
           >
             Show more
           </a>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-6">
+        <div className="grid items-center justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-6">
           <div className="max-w-xs rounded-md shadow-md bg-gray-900 text-gray-100">
             <img
               src="https://source.unsplash.com/random/300x300/?2"
